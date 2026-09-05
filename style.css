@@ -20,6 +20,7 @@ html {
 }
 
 main {
+    font-family: "Montserrat", serif;
     background-color: var(--white);
     width: 95%;
 
@@ -31,4 +32,14 @@ main {
     block-size: auto;
     object-fit: contain;
 }
+
+h1 {
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+
+    font-weight: 300;
+}
+
+
 
