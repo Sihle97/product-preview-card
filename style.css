@@ -22,6 +22,8 @@ html {
 main {
     background-color: var(--white);
     width: 95%;
+
+    margin: 0 auto;
 }
 
 .product-image {
