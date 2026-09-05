@@ -21,5 +21,12 @@ html {
 
 main {
     background-color: var(--white);
+    width: 95%;
+}
+
+.product-image {
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: contain;
 }
 
