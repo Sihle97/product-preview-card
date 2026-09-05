@@ -23,6 +23,7 @@ main {
     font-family: "Montserrat", serif;
     background-color: var(--white);
     width: 95%;
+    height: auto;
 
     margin: 0 auto;
 }
@@ -68,4 +69,17 @@ h1 {
     align-self: center;
 
     gap: 1rem;
+}
+
+button {
+    background-color: var(--green-500);
+    color: var(--white);
+    width: 100%;
+
+    margin: 0 auto;
+    
+    border-color: var(--green-500);
+    border-radius: 0.3rem;
+
+    padding: .5rem;
 }
