@@ -49,3 +49,23 @@ h1 {
     font-family: "Fraunces", serif;
 }
 
+.grey-font {
+    color: var(--grey);
+}
+
+.green-font {
+    color: var(--green-500);
+}
+
+.discounted-price {
+    font-size: .8rem;
+    text-decoration: line-through;
+    margin-top: 1.8em;
+}
+
+.price {
+    display: flex;
+    align-self: center;
+
+    gap: 1rem;
+}
