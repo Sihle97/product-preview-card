@@ -26,6 +26,7 @@ main {
     height: auto;
 
     margin: 0 auto;
+    overflow: hidden; 
 }
 
 .product-image {
@@ -81,5 +82,20 @@ button {
     border-color: var(--green-500);
     border-radius: 0.3rem;
 
-    padding: .5rem;
+    padding-left: .5rem;
+}
+
+@media (min-width: 641px) {
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    main {
+        display: flex;
+        max-width: 45%;
+        height: auto;
+        border-radius: 1rem;
+    }    
 }
