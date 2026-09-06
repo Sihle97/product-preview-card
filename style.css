@@ -94,8 +94,16 @@ button {
     }
     main {
         display: flex;
-        max-width: 45%;
-        height: auto;
+        max-width: 35%;
         border-radius: 1rem;
+        height: 50%;
     }    
+
+    .product-info {
+        width: 60%;
+    }
+
+    picture {
+        width: 60%;
+    }
 }
