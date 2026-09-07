@@ -85,6 +85,10 @@ button {
     padding-left: .5rem;
 }
 
+button:hover, button:focus-visible {
+    color: var(--green-700);
+}
+
 @media (min-width: 641px) {
     body {
         height: 100vh;
