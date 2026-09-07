@@ -22,7 +22,7 @@ html {
 main {
     font-family: "Montserrat", serif;
     background-color: var(--white);
-    width: 60%;
+    width: calc(100% - 2rem);
     height: auto;
 
     margin: 0 auto;
