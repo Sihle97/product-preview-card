@@ -89,8 +89,14 @@ button {
     padding-left: .5rem;
 }
 
-button:hover, button:focus-visible {
+button:focus-visible {
     color: var(--green-700);
+}
+
+button:hover {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    transform: translateY(-2px); 
+    background-color: hsl(158, 36%, 20%);
 }
 
 @media (min-width: 641px) {
