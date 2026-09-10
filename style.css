@@ -60,18 +60,22 @@ h1 {
 }
 
 .green-font {
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--green-500);
 }
 
 .discounted-price {
-    font-size: .8rem;
+    font-size: .6rem;
     text-decoration: line-through;
-    margin-top: 1.8em;
+    
+    display: inline-block;
+    height: 1rem;
+    align-self: center;
 }
 
 .price {
     display: flex;
-    align-self: center;
 
     gap: 1rem;
 }
