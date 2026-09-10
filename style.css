@@ -123,5 +123,6 @@ button:hover {
         block-size: auto;
         object-fit: cover;
         height: 100%;
+        width: 100%;
     }
 }
