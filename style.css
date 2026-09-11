@@ -43,7 +43,6 @@ main {
 
 .product-image-mobile {
     width: 100%;
-    height: 100%;
     block-size: auto;
     object-fit: contain;
 }
@@ -123,13 +122,13 @@ button:hover {
     main {
         display: flex;
         max-width: 35%;
-        min-width: 30rem;
+        min-width: 33rem;
         border-radius: 1rem;
         height: 45%;
     }    
 
     .product-info {
-        width: 60%;
+        width: 70%;
     }
 
     .product-image-desktop {
