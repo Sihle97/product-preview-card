@@ -35,7 +35,8 @@ body {
 main {
     font-family: "Montserrat", serif;
     background-color: var(--white);
-    width: calc(100% - 2rem);
+    width: calc(100% - 10rem);
+    min-width: 20rem;
     height: auto;
 
     overflow: hidden;
@@ -43,7 +44,6 @@ main {
 
 .product-image-mobile {
     width: 100%;
-    block-size: auto;
     object-fit: contain;
 }
 
