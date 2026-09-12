@@ -75,6 +75,7 @@ h2 {
     font-size: clamp(0.8rem, 1rem, 1.5rem);
     font-weight: 700;
     color: var(--green-500);
+    font-family: "Fraunces", serif;
 }
 
 .discounted-price {
@@ -90,6 +91,7 @@ h2 {
     display: flex;
 
     gap: 1rem;
+    margin-bottom: .3rem;
 }
 
 button {
