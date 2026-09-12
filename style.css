@@ -55,6 +55,10 @@ h1 {
     font-weight: 300;
 }
 
+h2 {
+    font-size: clamp(1.2rem, 1.3rem, 1.5rem);
+}
+
 .product-info {
     padding: 1rem;
 }
@@ -68,7 +72,7 @@ h1 {
 }
 
 .green-font {
-    font-size: 1.5rem;
+    font-size: clamp(0.8rem, 1rem, 1.5rem);
     font-weight: 700;
     color: var(--green-500);
 }
@@ -121,10 +125,11 @@ button:hover {
 
     main {
         display: flex;
-        max-width: 35%;
-        min-width: 33rem;
+        width: 40%;
+        min-width: 30rem;
         border-radius: 1rem;
         height: 45%;
+        min-height: 18.5rem;
     }    
 
     .product-info {
@@ -132,9 +137,12 @@ button:hover {
     }
 
     .product-image-desktop {
-        block-size: auto;
         object-fit: cover;
         height: 100%;
         width: 100%;
+    }
+
+    picture {
+        width: 50%;
     }
 }
